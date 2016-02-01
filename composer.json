@@ -1,0 +1,19 @@
+{
+    "name": "ailene/room_sched",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ailene Pequit",
+            "email": "ailene.pequit@gmail.com"
+        }
+    ],
+    "require": 
+    	{
+
+    	}
+    "autoload": 
+    	{
+
+    	}
+}
+
