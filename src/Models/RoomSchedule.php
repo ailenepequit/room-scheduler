@@ -38,7 +38,7 @@ class RoomSchedule
 
 	public function setBuilding($building) 
 	{
-		$this->building = $building
+		$this->building = $building;
 	}
 
 	public function getCourseCode() 

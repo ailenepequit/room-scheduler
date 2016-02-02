@@ -8,6 +8,10 @@ class Section
 	private $section_code;
 	private $class_size;
 
+	public function __construct(){
+		
+	}
+
 	public function setCourseCode($course_code) 
 	{
 		$this->course_code = $course_code;
