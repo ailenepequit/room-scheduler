@@ -18,21 +18,9 @@ class Person
 	private $mobile;
 	private $phone;
 
-	public function __construct($fname, $lname, $mname, $birthdate, $strtaddress, $city, $province, $country, $zipcode, $religion, $gender, $mobile, $phone) 
+	public function __construct() 
 	{
-		$this->fname = $fname;
-		$this->lname = $lname;
-		$this->mname = $mname;
-		$this->birthdate = $birthdate;
-		$this->strtaddress = $strtaddress;
-		$this->city = $city;
-		$this->province = $province;
-		$this->country = $country;
-		$this->zipcode = $zipcode;
-		$this->religion = $religion;
-		$this->gender = $gender;
-		$this->mobile = $mobile;
-		$this->phone = $phone;		
+		
 	}
 
 	public function setFname($fname) 

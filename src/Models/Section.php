@@ -8,7 +8,8 @@ class Section
 	private $section_code;
 	private $class_size;
 
-	public function __construct(){
+	public function __construct()
+	{
 		
 	}
 

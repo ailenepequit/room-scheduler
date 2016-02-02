@@ -10,6 +10,11 @@ class Faculty extends Person
 	private $college;
 	private $subject_spec;
 
+	public function __construct()
+	{
+		
+	}
+
 	public function setID($faculty_id) 
 	{
 		$this->faculty_id = $faculty_id;
@@ -37,26 +42,26 @@ class Faculty extends Person
 
 	public function getID() 
 	{
-		return $faculty_id;
+		return $this->faculty_id;
 	}
 
 	public function getAcadPos() 
 	{
-		return $academic_pos;
+		return $this->academic_pos;
 	}
 
 	public function getDept() 
 	{
-		return $department;
+		return $this->department;
 	}
 
 	public function getCollege() 
 	{
-		return $college;	
+		return $this->college;	
 	}
 
 	public function getSubjectSpec() 
 	{
-		return $subject_spec;
+		return $this->subject_spec;
 	}
 }
