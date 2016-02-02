@@ -9,6 +9,11 @@ class Course
 	private $units;
 	private $semester;
 
+	public function __construct()
+	{
+		
+	}
+
 	public function setCourseCode($course_code) 
 	{
 		$this->course_code = $course_code;
