@@ -1,8 +1,6 @@
 <?php
 
-namespace ;
-
-use Person;
+namespace App\Models;
 
 class Faculty extends Person 
 {
