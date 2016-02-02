@@ -4,7 +4,6 @@ namespace App\Models;
 
 class Room 
 {
-	private $room_no;
 	private $room_name;
 	private $type;
 	private $floor;
