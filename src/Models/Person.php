@@ -75,7 +75,7 @@ class Person
 
 	public function setBirthdate($birthdate) 
 	{
-		$this->birhtdate = $birhtdate;
+		$this->birthdate = $birthdate;
 	}
 
 	public function setReligion($religion) 
@@ -95,17 +95,17 @@ class Person
 
 	public function getFname() 
 	{
-		return $this->fname = $fname;
+		return $this->fname;
 	}
 
 	public function getLname() 
 	{
-		return $this->lname = $lname;
+		return $this->lname;
 	}
 
 	public function getMname() 
 	{
-		return $this->mname = $mname;
+		return $this->mname;
 	}
 
 	public function getFullAddress() 
@@ -120,22 +120,22 @@ class Person
 
 	public function getCity() 
 	{
-		return $this->city = $city;
+		return $this->city;
 	}
 	
 	public function getProvince() 
 	{
-		return $this->province = $province;
+		return $this->province;
 	}
 
 	public function getCountry() 
 	{
-		return $this->country = $country;
+		return $this->country;
 	}
 
 	public function getZipcode() 
 	{
-		return $this->zipcode = $zipcode;
+		return $this->zipcode;
 	}
 	public function getMobile() 
 	{
