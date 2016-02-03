@@ -11,17 +11,12 @@ class Room
 	private $building;
 	private $capacity;
 
-	public function setRoomNo($room_no) 
-	{
-		$this->room_no = $room_no;
-	}
-
 	public function setRoomName($room_name) 
 	{
 		$this->room_name = $room_name;
 	}
 
-	public function setType($type) 
+	public function setRoomType($type) 
 	{
 		$this->type = $type;
 	}
@@ -46,17 +41,12 @@ class Room
 		$this->capacity = $capacity;
 	}
 
-	public function getRoomNo() 
-	{
-		return $this->room_no;
-	}
-
 	public function getRoomName() 
 	{
 		return $this->room_name;
 	}
 
-	public function getType() 
+	public function getRoomType() 
 	{
 		return $this->type;
 	}
