@@ -11,6 +11,11 @@ class RoomSchedule
 	private $day;
 	private $building;
 
+	public function __construct()
+	{
+		
+	}
+
 	public function setCourseCode($course_code) 
 	{
 		$this->course_code = $course_code;
